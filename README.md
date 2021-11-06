@@ -53,9 +53,9 @@ python manage.py makemigrations
 ```
 
 complite migrations
-'''
+```
 python manage.py migrate
-'''
+```
 
 
 End with an example of getting some data out of the system or using it for a little demo.
@@ -63,11 +63,12 @@ End with an example of getting some data out of the system or using it for a lit
 ## Usage <a name = "usage"></a>
 
 Create superuser
-'''
+
+```
 python manage.py createsuperuser
-'''
+```
 
 Run server
-'''
+```
 python manage.py runserver
-'''
+```
