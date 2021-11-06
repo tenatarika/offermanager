@@ -23,19 +23,19 @@ What things you need to install the software and how to install them.
 git clone https://github.com/tenatarika/AI_site.git
 ```
 
-'''
+```
 cd offermanager
-'''
+```
 
 Now need to install Pipenv to install dependencies
-'''
+```
 pip install pipenv 
-'''
+```
 
 create virtual env
-'''
+```
 pipenv shell
-'''
+```
 
 ### Installing
 
