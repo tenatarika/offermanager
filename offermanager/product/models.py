@@ -1,4 +1,6 @@
 from django.db import models
+from simple_history.models import HistoricalRecords
+
 from django_countries.fields import CountryField
 
 
@@ -31,6 +33,7 @@ class Waybill(models.Model):
     document_number = models.PositiveIntegerField()
     bank = models.ForeignKey(Bank, on_delete=models.CASCADE)
     customer_name = models.CharField(max_length=30)
+    history = HistoricalRecords()
 
     def __str__(self):
         return f"{self.customer_name}, {self.created_at}"
